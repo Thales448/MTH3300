@@ -26,8 +26,8 @@ one sprinkler = 155 ft^2 @ 3.11Gpm @ $4.49 per 1000 ft^3 15 min a day
 """
 import math
 # User inputs:
-width =  input(" Enter width (in ft) :")
-length =  input(" Enter length (in ft) :")
+width =  input(" Enter width (in ft):")
+length =  input(" Enter length (in ft):")
 
 #Needed calculations
 area = float(width) * float (length) #thought of using int in the input function but might loose data to early in my calculations
