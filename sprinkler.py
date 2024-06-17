@@ -43,5 +43,5 @@ water_use_per_minute = round((sprinklers_needed * 3.11), 2)
 bill = round(((water_use_per_minute * 15 * 30) / 748 * 4.49), 2)
 
 # creating printed output 
-print(f' You have {area} square feet of yard area and {irrigated_area} square feet for irrigation. \nYou will need {sprinklers_needed} sprinklers in your yard. \nIt will use about {water_use_per_minute} gallons per minute when running.\nYour bill will be about ${bill:.2f} per month.')
+print(f' You have {area} square feet of yard area and {irrigated_area} square feet for irrigation.\nYou will need {sprinklers_needed} sprinklers in your yard.\nIt will use about {water_use_per_minute} gallons per minute when running.\nYour bill will be about ${bill:.2f} per month.')
 # your code has as an output 'bE' i didi it exactly and the autograder didint like that
