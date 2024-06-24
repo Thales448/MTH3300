@@ -11,4 +11,5 @@ for num in range(3):
     place = ['first', 'second', 'third'] 
     rtsums +=(float(input(f"Enter {place[num]} time period (in years): "))* (float(input(f'Enter {place[num]} growth rate (in percentage): '))/100))
 print(f'The final population is {P*math.exp(rtsums)})
+#nevermind
     
